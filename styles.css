@@ -13,7 +13,6 @@ body {
 }
 
 a {
-    color: #262626;
     text-decoration: none;
 }
 
@@ -46,7 +45,44 @@ nav img {
     display: flex;
 }
 
-.nav-links ul li {
-    padding: 10px;
+.nav-links ul li a {
+    padding-left: 35px;
+    color: #fff;
 }
 
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-image: url(./assets/header\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+header h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+    font-size: 18px;
+}
+
+.header-text p {
+    padding-bottom: 10px;
+}
