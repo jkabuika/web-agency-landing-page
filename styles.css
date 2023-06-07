@@ -24,7 +24,7 @@ ul {
 
 nav {
     width: 100%;
-    background-color: #262626;
+    background-color: #040404;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ nav {
 }
 
 nav img {
-    height: 60px;
+    height: 70px;
 }
 
 .nav-links ul {
@@ -63,7 +63,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 header h1 {
@@ -86,4 +86,22 @@ header h2 {
 
 .header-text p {
     padding-bottom: 10px;
+}
+
+/* FIRST SPACE */
+
+.first-space {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-space-container {
+   margin: 0 20%;
+}
+
+.first-space-container p {
+    padding: 20px 0;
+    font-size: 18px;
 }
