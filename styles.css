@@ -104,6 +104,9 @@ header h2 {
 
 .first-space-container {
    margin: 0 20%;
+   padding: 10px 26px;
+   background-color: #F0FFFF;
+   border: #F0FFFF solid 3px;
 }
 
 .first-space-container p {
