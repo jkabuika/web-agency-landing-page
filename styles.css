@@ -1,125 +1,142 @@
+/* General Reset */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: #fff;
-    color: #000;
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #444;
+  }
+  
+  .nav-links {
     list-style: none;
-}
-
-/* NAV */
-
-nav {
-    width: 100%;
-    color: #fff;
     display: flex;
     justify-content: center;
-    margin-top: 70px;
-    border-bottom: #f4f4f4 solid 1px;
-}
-
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-}
-
-nav img {
-    height: 70px;
-}
-
-.nav-links ul {
-    display: flex;
-}
-
-.nav-links ul li a {
-    padding-left: 35px;
-    padding-right: 28px;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
     color: #fff;
-    font-size: 18px;
-    border-right: #f4f4f4 solid 1px;
-}
-
-/* HEADER */
-
-header {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-links a:hover {
+    background: #555;
+    border-radius: 5px;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 2rem 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  /* Services List */
+  #services ul {
+    list-style: none;
+  }
+  
+  #services ul li {
+    background: #eee;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  /* Portfolio */
+  .portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .portfolio-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Contact Form */
+  form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  }
+  
+  form label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 1rem;
+    background: #333;
     color: #fff;
-    background-image: url(./assets/header\ image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    padding-bottom: 100px;
-}
-
-header h1 {
-    font-size: 48px;
-    margin-top: 100px;
-}
-
-header h2 {
-    font-size: 36px;
-    margin-bottom: 60px;
-}
-
-.header-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 140px;
-    font-size: 20px;
-}
-
-.header-text p {
-    padding-bottom: 10px;
-}
-
-/* FIRST SPACE */
-
-.first-space {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-}
-
-.first-space-container {
-   margin: 0 20%;
-   padding: 10px 26px;
-   background-color: #F0FFFF;
-   border: #F0FFFF solid 3px;
-}
-
-.first-space-container p {
-    padding: 20px 0;
-    font-size: 18px;
-}
-
-/* ABOUT */
-
-#about {
-    height: 100vh;
-}
-
-.about-container {
-    background-color: #F0FFFF;
-}
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
