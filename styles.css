@@ -34,7 +34,7 @@
   
   /* Navigation */
   nav {
-    background: #444;
+    background: #000;
   }
   
   .nav-links {
@@ -55,7 +55,7 @@
   }
   
   .nav-links a:hover {
-    background: #555;
+    background: #0e0e0e;
     border-radius: 5px;
   }
   
@@ -83,6 +83,10 @@
   }
   
   /* Portfolio */
+.portfolio-info {
+    margin-bottom: 1rem;
+}
+
   .portfolio-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
